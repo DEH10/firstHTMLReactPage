@@ -1,0 +1,34 @@
+To commit all uncommitted changes from the terminal, you can follow these steps:
+
+Check Status:
+Before committing, it's good practice to check the status of your repository to see which files are modified, added, or deleted. You can do this by running:
+
+lua
+Copy code
+git status
+Add Changes:
+Add all modified files to the staging area using the following command:
+
+csharp
+Copy code
+git add .
+This command stages all changes in the current directory and its subdirectories.
+
+Commit Changes:
+Commit the changes with a descriptive message using the git commit command. Replace your_commit_message with an appropriate message summarizing the changes:
+
+sql
+Copy code
+git commit -m "your_commit_message"
+For example:
+
+sql
+Copy code
+git commit -m "Add new features and fix bugs"
+Push Changes (Optional):
+If you want to push the changes to a remote repository (like GitHub), use the git push command:
+
+css
+Copy code
+git push origin main
+Replace main with the name of your branch if you're not working on the main branch.
